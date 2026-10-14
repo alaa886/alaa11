@@ -20,7 +20,7 @@ public class ItemBill {
         input.close();
     }
 }
-        double discount = 0;
+               double discount = 0;
         if (total > 50) {
             discount = total * 0.10;
         }
